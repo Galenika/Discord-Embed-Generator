@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Discord Embed Generator</title>
+<meta name="description" content="Generate your own discord embeds">
+<meta name="twitter:title" content="Discord embed generator ">
+<meta name="twitter:description" content=" Generate your own discord embeds">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+#generator {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<div id="page">
+<div id="generator">
+<form method="POST" action="generate.php" accept-charset="utf-8">
+   <p>Fields marked with * are required</p>
+    <input placeholder="Title*" id="title" type="text" name="title" /><br>
+        <input placeholder="Description*" id="desc" type="text" name="desc" /><br>
+            <input placeholder="Image URL" id="image" type="text" name="image" /><br>
+               <p>Color: (Click box to choose color) <input placeholder="Color" id="color" type="color" name="color" /><br>
+    <input type="submit" value="Generate embed URL" />
+   <!-- <p>Color is in hex but DON'T put the # or it won't work. Click <</p> -->
+</form>
+</div>
+</div>
+</body>
+</html>
