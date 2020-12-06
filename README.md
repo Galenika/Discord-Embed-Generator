@@ -8,3 +8,5 @@ index.html - What people will go to to choose stuff like Title, Description, Ima
 
 
   embed.php - Where the actual embed happens
+
+  index.css - Contains the design for index.html
