@@ -19,4 +19,5 @@ $urlm = $urlm . $_POST['image'] . "&color=" . $color;
 $urlm = str_ireplace(" ", "%20", $urlm);
 $url = "Paste this URL Into discord: " . $urlm;
 ?>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <center><p><?php echo($url); ?></p></center>
